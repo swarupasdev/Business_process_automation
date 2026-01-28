@@ -1,0 +1,9 @@
+input_format: csv
+input_path: data/input
+output_path: data/output
+failed_path: data/failed
+required_columns:
+  - id
+  - name
+  - amount
+schedule_interval_minutes: 10
