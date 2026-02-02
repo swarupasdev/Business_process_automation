@@ -1,3 +1,28 @@
 2026-01-28 22:12:36,951 | INFO | automation | Configuration loaded successfully
 2026-01-28 22:12:36,951 | INFO | automation | Running with config: {'input_format': 'csv', 'input_path': 'data/input', 'output_path': 'data/output', 'failed_path': 'data/failed', 'required_columns': ['id', 'name', 'amount'], 'schedule_interval_minutes': 10}
 2026-01-28 22:12:36,951 | INFO | automation | Automation system initialized
+2026-02-02 21:23:25,055 | INFO | automation | Configuration loaded successfully
+2026-02-02 21:23:25,055 | INFO | automation | Running with config: {'input_format': 'csv', 'input_path': 'data/input', 'output_path': 'data/output', 'failed_path': 'data/failed', 'required_columns': ['id', 'name', 'amount'], 'schedule_interval_minutes': 10}
+2026-02-02 21:23:25,055 | INFO | automation | Automation system initialized
+2026-02-02 21:27:09,049 | INFO | automation | Configuration loaded successfully
+2026-02-02 21:27:09,049 | INFO | automation | Running with config: {'input_format': 'csv', 'input_path': 'data/input', 'output_path': 'data/output', 'failed_path': 'data/failed', 'required_columns': ['id', 'name', 'amount'], 'schedule_interval_minutes': 10}
+2026-02-02 21:27:09,049 | INFO | automation | Automation system initialized
+2026-02-02 21:38:54,369 | INFO | automation | Configuration loaded successfully
+2026-02-02 21:38:54,376 | ERROR | automation | Validation failed for test.csv.csv: Missing columns: {'name', 'id', 'amount'}
+2026-02-02 21:38:54,376 | INFO | automation | Validation phase completed
+2026-02-02 22:41:57,871 | INFO | automation | Configuration loaded successfully
+2026-02-02 22:41:57,871 | INFO | automation | No input files found
+2026-02-02 22:41:57,871 | INFO | automation | Validation phase completed
+2026-02-02 22:46:39,112 | INFO | automation | Configuration loaded successfully
+2026-02-02 22:46:39,113 | INFO | automation | No input files found
+2026-02-02 22:46:39,113 | INFO | automation | Validation phase completed
+2026-02-02 22:53:27,201 | INFO | automation | Configuration loaded successfully
+2026-02-02 22:53:27,208 | INFO | automation | No input files found
+2026-02-02 22:53:27,208 | INFO | automation | Validation phase completed
+2026-02-02 22:56:01,887 | INFO | automation | Configuration loaded successfully
+2026-02-02 22:56:01,919 | INFO | automation | Validated successfully: test.csv
+2026-02-02 22:56:01,919 | INFO | automation | Validation phase completed
+2026-02-02 22:59:36,064 | INFO | automation | Configuration loaded successfully
+2026-02-02 22:59:36,071 | INFO | automation | Writing output to: data/output\test.csv
+2026-02-02 22:59:36,074 | INFO | automation | Validated successfully: test.csv
+2026-02-02 22:59:36,074 | INFO | automation | Validation phase completed
