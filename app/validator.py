@@ -2,6 +2,8 @@ import os
 import shutil
 import pandas as pd
 from app.processor import DataProcessor
+from app.paths import BASE_DIR
+
 
 class ValidationError(Exception):
     pass
@@ -10,12 +12,15 @@ class ValidationError(Exception):
 class DataValidator:
     def __init__(self, config, logger):
         self.input_format = config["input_format"].lower()
-        self.input_path = config["input_path"]
-        self.output_path = config["output_path"]
-        self.failed_path = config["failed_path"]
+
+        self.input_path = os.path.join(BASE_DIR, config["input_path"])
+        self.output_path = os.path.join(BASE_DIR, config["output_path"])
+        self.failed_path = os.path.join(BASE_DIR, config["failed_path"])
+
         self.required_columns = set(config["required_columns"])
         self.logger = logger
 
+        os.makedirs(self.input_path, exist_ok=True)
         os.makedirs(self.output_path, exist_ok=True)
         os.makedirs(self.failed_path, exist_ok=True)
 
