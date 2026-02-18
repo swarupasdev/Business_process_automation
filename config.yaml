@@ -6,4 +6,4 @@ required_columns:
   - id
   - name
   - amount
-schedule_interval_minutes: 10
+schedule_interval_minutes: 1

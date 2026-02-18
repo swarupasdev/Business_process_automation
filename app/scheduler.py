@@ -14,9 +14,12 @@ class AutomationScheduler:
 
         schedule.every(self.interval).minutes.do(self._safe_run)
 
-        while True:
-            schedule.run_pending()
-            time.sleep(1)
+        try:
+            while True:
+                schedule.run_pending()
+                time.sleep(1)
+        except KeyboardInterrupt:
+            self.logger.info("Scheduler stopped by user")
 
     def _safe_run(self):
         self.logger.info("Scheduled run started")
@@ -25,4 +28,3 @@ class AutomationScheduler:
             self.logger.info("Scheduled run completed successfully")
         except Exception:
             self.logger.exception("Scheduled run failed")
-
