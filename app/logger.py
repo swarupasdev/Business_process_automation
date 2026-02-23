@@ -1,7 +1,25 @@
 import logging
 from logging.handlers import RotatingFileHandler
 import os
+import json
+from datetime import datetime
 from app.paths import BASE_DIR
+
+
+class JsonFormatter(logging.Formatter):
+    def format(self, record):
+        log_record = {
+            "timestamp": datetime.utcnow().isoformat(),
+            "level": record.levelname,
+            "logger": record.name,
+            "message": record.getMessage(),
+        }
+
+        if record.exc_info:
+            log_record["exception"] = self.formatException(record.exc_info)
+
+        return json.dumps(log_record)
+
 
 def setup_logger():
     logs_dir = os.path.join(BASE_DIR, "logs")
@@ -21,10 +39,7 @@ def setup_logger():
         backupCount=5
     )
 
-    formatter = logging.Formatter(
-        "%(asctime)s | %(levelname)s | %(name)s | %(message)s"
-    )
-    handler.setFormatter(formatter)
+    handler.setFormatter(JsonFormatter())
 
     logger.addHandler(handler)
     return logger

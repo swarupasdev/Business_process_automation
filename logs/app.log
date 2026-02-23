@@ -75,3 +75,31 @@
 2026-02-18 22:44:40,369 | INFO | automation | Scheduled run completed successfully
 2026-02-18 22:44:40,369 | INFO | automation | Metrics → Success: 5, Failures: 0
 2026-02-18 22:45:00,768 | INFO | automation | Scheduler stopped by user
+{"timestamp": "2026-02-23T17:19:14.199737", "level": "INFO", "logger": "automation", "message": "Configuration loaded successfully"}
+{"timestamp": "2026-02-23T17:19:14.199737", "level": "INFO", "logger": "automation", "message": "Scheduler started (interval = 1 minutes)"}
+{"timestamp": "2026-02-23T17:19:14.199737", "level": "INFO", "logger": "automation", "message": "Scheduled run started"}
+{"timestamp": "2026-02-23T17:19:14.238858", "level": "INFO", "logger": "automation", "message": "Writing output to: C:\\Users\\San\\Documents\\progsandalgs\\Python\\business_process_automation\\data/output\\test.csv"}
+{"timestamp": "2026-02-23T17:19:14.242823", "level": "INFO", "logger": "automation", "message": "Validated successfully: test.csv"}
+{"timestamp": "2026-02-23T17:19:14.242823", "level": "INFO", "logger": "automation", "message": "Scheduled run completed successfully"}
+{"timestamp": "2026-02-23T17:19:14.242823", "level": "INFO", "logger": "automation", "message": "Metrics \u2192 Success: 1, Failures: 0"}
+{"timestamp": "2026-02-23T17:20:14.277476", "level": "INFO", "logger": "automation", "message": "Scheduled run started"}
+{"timestamp": "2026-02-23T17:20:14.277476", "level": "INFO", "logger": "automation", "message": "Writing output to: C:\\Users\\San\\Documents\\progsandalgs\\Python\\business_process_automation\\data/output\\test.csv"}
+{"timestamp": "2026-02-23T17:20:14.277476", "level": "INFO", "logger": "automation", "message": "Validated successfully: test.csv"}
+{"timestamp": "2026-02-23T17:20:14.277476", "level": "INFO", "logger": "automation", "message": "Scheduled run completed successfully"}
+{"timestamp": "2026-02-23T17:20:14.277476", "level": "INFO", "logger": "automation", "message": "Metrics \u2192 Success: 2, Failures: 0"}
+{"timestamp": "2026-02-23T17:21:14.322574", "level": "INFO", "logger": "automation", "message": "Scheduled run started"}
+{"timestamp": "2026-02-23T17:21:14.330128", "level": "INFO", "logger": "automation", "message": "Writing output to: C:\\Users\\San\\Documents\\progsandalgs\\Python\\business_process_automation\\data/output\\test.csv"}
+{"timestamp": "2026-02-23T17:21:14.334155", "level": "INFO", "logger": "automation", "message": "Validated successfully: test.csv"}
+{"timestamp": "2026-02-23T17:21:14.334155", "level": "INFO", "logger": "automation", "message": "Scheduled run completed successfully"}
+{"timestamp": "2026-02-23T17:21:14.334155", "level": "INFO", "logger": "automation", "message": "Metrics \u2192 Success: 3, Failures: 0"}
+{"timestamp": "2026-02-23T17:22:14.366702", "level": "INFO", "logger": "automation", "message": "Scheduled run started"}
+{"timestamp": "2026-02-23T17:22:14.371416", "level": "INFO", "logger": "automation", "message": "Writing output to: C:\\Users\\San\\Documents\\progsandalgs\\Python\\business_process_automation\\data/output\\test.csv"}
+{"timestamp": "2026-02-23T17:22:14.373330", "level": "INFO", "logger": "automation", "message": "Validated successfully: test.csv"}
+{"timestamp": "2026-02-23T17:22:14.373330", "level": "INFO", "logger": "automation", "message": "Scheduled run completed successfully"}
+{"timestamp": "2026-02-23T17:22:14.373330", "level": "INFO", "logger": "automation", "message": "Metrics \u2192 Success: 4, Failures: 0"}
+{"timestamp": "2026-02-23T17:23:14.409437", "level": "INFO", "logger": "automation", "message": "Scheduled run started"}
+{"timestamp": "2026-02-23T17:23:14.409437", "level": "INFO", "logger": "automation", "message": "Writing output to: C:\\Users\\San\\Documents\\progsandalgs\\Python\\business_process_automation\\data/output\\test.csv"}
+{"timestamp": "2026-02-23T17:23:14.409437", "level": "INFO", "logger": "automation", "message": "Validated successfully: test.csv"}
+{"timestamp": "2026-02-23T17:23:14.409437", "level": "INFO", "logger": "automation", "message": "Scheduled run completed successfully"}
+{"timestamp": "2026-02-23T17:23:14.409437", "level": "INFO", "logger": "automation", "message": "Metrics \u2192 Success: 5, Failures: 0"}
+{"timestamp": "2026-02-23T17:24:08.341736", "level": "INFO", "logger": "automation", "message": "Scheduler stopped by user"}
